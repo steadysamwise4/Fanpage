@@ -1,0 +1,31 @@
+body {background-image: url("https://eskipaper.com/images/free-background-4.jpg");text-align: center;}
+.top {font-size: 45px; color: mintcream;}
+.main {font-size: 20px; color: mintcream;}
+.first {font-size: 30px; color: mintcream;}
+.list {font-size: 25px; color: lime; list-style: none; /* Remove HTML bullets */
+    padding: 0;
+    margin: 0;}
+.heading {font-size: 25px; color: mintcream; text-decoration: underline;}
+/* unvisited link */
+a:link {
+    color: rgba(255, 0, 191, 0.863);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgba(11, 240, 11, 0.856);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(8, 173, 250);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(246, 246, 250);
+  }
+p {font-size: 20px; color: mintcream;height: 100px; width: 40%;text-align: center; margin-right: 300px;
+    margin-left: 565px;} 
+.thumbnails {height: 300px; width: 40%;text-align: left; margin-right: 300px;
+    margin-left: 790px;margin-bottom: 75px;}
