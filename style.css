@@ -1,4 +1,10 @@
-body {background-image: url("https://eskipaper.com/images/free-background-4.jpg");text-align: center;}
+body {background-image: url("https://eskipaper.com/images/free-background-4.jpg");
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
 .top {font-size: 45px; color: mintcream;}
 .main {font-size: 20px; color: mintcream;}
 .first {font-size: 30px; color: mintcream;}
@@ -25,7 +31,21 @@ a:link {
   a:active {
     color: rgb(246, 246, 250);
   }
-p {font-size: 20px; color: mintcream;height: 100px; width: 40%;text-align: center; margin-right: 300px;
-    margin-left: 565px;} 
-.thumbnails {height: 300px; width: 40%;text-align: left; margin-right: 300px;
-    margin-left: 790px;margin-bottom: 75px;}
+p {font-size: 20px; color: mintcream;
+  
+   width: 40%;
+   text-align: center;
+   margin:auto;
+   } 
+.thumbnails {
+   width: 40%;
+   text-align: center;
+    
+    margin: auto;
+  }
+  .nav {
+    padding: 30px;
+  }
+  .more {
+    margin:5px;
+  }
